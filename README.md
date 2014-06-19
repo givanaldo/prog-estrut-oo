@@ -1,4 +1,4 @@
-Programação Estruturada e Orientada a Objetos
+Programação Estruturada e OO
 ================================================
 
 Algoritmos desenvolvidos para a disciplina.
