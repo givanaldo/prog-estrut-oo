@@ -1,4 +1,4 @@
-Python examples
-=======================
+Programação Estruturada e Orientada a Objetos
+================================================
 
-Examples in Python for programming classes at IFRN
+Algoritmos desenvolvidos para a disciplina.
