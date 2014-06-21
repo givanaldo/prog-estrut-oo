@@ -1,6 +1,6 @@
 # Disciplina: Programação Estrutura e Orientada a Objetos
 # Professor: Givanaldo Rocha
-# Lista 3 - Questão 4 (uma extensão dessa questão, imprime a sequência completa)
+# Lista 3 - Questão 4 (uma variação dessa questão, imprime a sequência completa)
 
 termo = int(input("Digite o n-ésimo termo de Fibonacci: "))
 print("Sequência de Fibonnaci até o n-ésimo termo: ")
