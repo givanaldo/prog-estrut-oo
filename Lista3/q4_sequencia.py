@@ -1,8 +1,9 @@
-# -*- coding: cp1252 -*-
-# Sequ�ncia de Fibonacci
+# Disciplina: Programação Estrutura e Orientada a Objetos
+# Professor: Givanaldo Rocha
+# Lista 3 - Questão 4 (uma extensão dessa questão, imprime a sequência completa)
 
-termo = input("Digite o n-�simo termo de Fibonacci: ")
-print("Sequ�ncia de Fibonnaci at� o n-�simo termo: ")
+termo = int(input("Digite o n-ésimo termo de Fibonacci: "))
+print("Sequência de Fibonnaci até o n-ésimo termo: ")
 if termo == 1:
     print("1")
 elif termo == 2:
@@ -11,9 +12,9 @@ else:
     i = 2
     x = y = 1
     z = 0
-    print("1  1 "),
-    while (i < termo):
+    print("1  1 ", end=" "),
+    while i < termo:
         i = i + 1
         z = x + y
         x, y = y, z
-        print("%d " % z),
+        print("%d " % z, end=" "),
