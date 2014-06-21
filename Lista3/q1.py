@@ -2,9 +2,10 @@
 # Professor: Givanaldo Rocha
 # Lista 3 - Questão 1
 
-numero = -1
-while numero < 0.0 or numero > 10.0:
-    numero = float(input("Digite uma nota: "))
-    if numero < 0.0 or numero > 10.0:
-        print("Número inválido. Digite entre 0 e 10.")
-print("OK")
+nota = -1
+while nota < 0.0 or nota > 10.0:
+    nota = float(input("Digite uma nota: "))
+    if nota < 0.0 or nota > 10.0:
+        print("Nota inválida. Digite uma nota entre 0 e 10.")
+
+print("Nota válida: %.1f" % nota)

@@ -13,3 +13,4 @@ while senha == usuario:
         print('A senha não pode ser igual ao nome de usuário. Entre com a senha novamente!!!')
 
 print('Usuário e senha registrados com sucesso.')
+print('Usuário: %s ### Senha: %s' % (usuario, senha))
