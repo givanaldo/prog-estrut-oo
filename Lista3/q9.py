@@ -16,4 +16,21 @@ while quociente != 1:
     else:
         fator += 1
 
-print(fatores)
+print("%d =" % num, end=" ")
+for i in range(len(fatores)):
+    print("%d" % fatores[i], end=" ")
+    if i != len(fatores)-1:
+        print("x", end=" ")
+
+multiplicidade = 1
+print("\n%d =" % num, end=" ")
+for i in range(len(fatores)):
+    if i == 0 or multiplicidade == 1:
+        print("%d^" % fatores[i], end="")
+    if i!= 0 and fatores[i] == fatores[i-1]:
+        multiplicidade += 1
+    else:
+        print("%d" % multiplicidade, end=" ")
+        multiplicidade = 1
+        if i != len(fatores)-1:
+            print("x", end=" ")
