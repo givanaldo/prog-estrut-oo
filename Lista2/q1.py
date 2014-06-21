@@ -6,6 +6,8 @@
 a = int(input('Lado a: '))
 b = int(input('Lado b: '))
 c = int(input('Lado c: '))
+
+# regras para definir o tipo do triângulo
 if (a > b + c) or (b > a + c) or (c > a + b):
   print('Não pode ser um triângulo, pois um dos lados é maior que a soma dos outros.')
 elif a == b == c:

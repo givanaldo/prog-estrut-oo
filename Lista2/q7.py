@@ -5,6 +5,7 @@
 # Se 1 litro pinta 3 metros quadrados, então uma lata (18 litros) pinta 54 metros quadrados
 
 # entrada da área a ser pintada
+# o comando chr(178) retorna o "elevado a dois (²)" como string
 area_pintada = float(input('Área a ser pintada (m' + chr(178) + '): '))
 
 # testa se a divisão é inteira pelo número de latas
