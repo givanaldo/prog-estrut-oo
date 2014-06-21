@@ -1,6 +1,6 @@
 # Disciplina: Programação Estrutura e Orientada a Objetos
 # Professor: Givanaldo Rocha
-# Lista 3 - Questão 4
+# Lista 3 - Questão 5
 
 # entrada dos números a ser calculado o MDC
 num1 = int(input("Digite o primeiro número: "))
