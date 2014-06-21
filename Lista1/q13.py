@@ -19,4 +19,6 @@ if potencia % 100 == 0:
 else: # precisa de mais uma lâmpada
     num_lampadas = (potencia // 100) + 1
 
+# exibe o resultado
+# o comando chr(178) retorna o "elevado a dois (²)" como string
 print("Para iluminar uma sala de %.2fm x %.2fm (%.2fm%s) são necessários %.2fW, ou seja, %d lâmpadas de 100W." % (largura, comprimento, area, chr(178), potencia, num_lampadas))

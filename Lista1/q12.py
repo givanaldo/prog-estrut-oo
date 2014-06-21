@@ -11,4 +11,7 @@ area = largura * comprimento
 
 # cálculo da potência necessária, sabendo que 1 metro quadrado necessita de 18 W
 potencia = area * 18
+
+# exibe o resultado
+# o comando chr(178) retorna o "elevado a dois (²)" como string
 print("Para iluminar uma sala de %.2fm x %.2fm (%.2fm%s) são necessários %.2fW" % (largura, comprimento, area, chr(178), potencia))

@@ -8,4 +8,4 @@ velocidade = float(input('Velocidade média (Km/h): '))
 
 # cálculo do tempo e exibição do mesmo
 tempo = distancia / velocidade
-print ('Tempo aproximado da viagem: %.1f horas' % tempo)
+print ('Tempo aproximado da viagem: %.1f hora(s)' % tempo)
