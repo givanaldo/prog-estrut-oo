@@ -13,9 +13,10 @@ area = largura * comprimento
 potencia = area * 18
 
 # cálculo da quantidade de lâmpadas, sabendo que temos apenas lâmpadas de 100W
-if potencia % 100 == 0: # divisão exata
-    num_lampadas = potencia / 100
+# testa se temos a quantidade exata de lâmpadas de acordo com a potência
+if potencia % 100 == 0:
+    num_lampadas = potencia // 100
 else: # precisa de mais uma lâmpada
-    num_lampadas = (potencia / 100) + 1
+    num_lampadas = (potencia // 100) + 1
 
 print("Para iluminar uma sala de %.2fm x %.2fm (%.2fm%s) são necessários %.2fW, ou seja, %d lâmpadas de 100W." % (largura, comprimento, area, chr(178), potencia, num_lampadas))

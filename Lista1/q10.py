@@ -19,6 +19,6 @@ dias_perdidos = total_cigarros / 144
 print('Você perdeu aproximadamente %d dias' % dias_perdidos)
 
 # Calcular na forma ano/dias
-anos = dias_perdidos / 365
+anos = dias_perdidos // 365
 dias = dias_perdidos % 365
 print('Você perdeu aproximadamente %d ano(s) e %d dia(s)' % (anos, dias))
