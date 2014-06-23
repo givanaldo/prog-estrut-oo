@@ -1,6 +1,6 @@
 # Disciplina: Programação Estrutura e Orientada a Objetos
 # Professor: Givanaldo Rocha
-# Lista 3 - Questão 8
+# Lista 3 - Questão 9
 
 # entrada do número a ser decomposto em fatores primos
 num = int(input('Digite um número: '))
@@ -16,12 +16,15 @@ while quociente != 1:
     else:
         fator += 1
 
+# exibição do resultado
 print("%d =" % num, end=" ")
 for i in range(len(fatores)):
     print("%d" % fatores[i], end=" ")
     if i != len(fatores)-1:
         print("x", end=" ")
 
+###########################################################
+###########################################################
 # decomposição em fatores primos com as multiplicidades
 fatores = []
 multiplicidades = []
@@ -44,7 +47,7 @@ while quociente != 1:
         indice = len(fatores)
         multiplicidade = 0
 
-
+# exibição do resultado
 print("\n%d =" % num, end=" ")
 for i in range(len(fatores)):
     print("%d**%d" % (fatores[i], multiplicidades[i]), end=" ")
