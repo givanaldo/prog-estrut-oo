@@ -5,7 +5,7 @@
 # entrada do número a ser decomposto em fatores primos
 num = int(input('Digite um número: '))
 
-# decomposição em fatores primos
+# decomposição em fatores primos sem as multiplicidades
 fatores = []
 quociente = num
 fator = 2
@@ -22,15 +22,32 @@ for i in range(len(fatores)):
     if i != len(fatores)-1:
         print("x", end=" ")
 
-multiplicidade = 1
+# decomposição em fatores primos com as multiplicidades
+fatores = []
+multiplicidades = []
+quociente = num
+indice = 0
+multiplicidade = 0
+fator = 2
+while quociente != 1:
+    if quociente % fator == 0:
+        quociente /= fator
+        if multiplicidade == 0:
+            fatores.append(fator)
+            multiplicidade += 1
+            multiplicidades.append(multiplicidade)
+        else:
+            multiplicidade += 1
+            multiplicidades[indice] = multiplicidade
+    else:
+        fator += 1
+        indice = len(fatores)
+        multiplicidade = 0
+
+
 print("\n%d =" % num, end=" ")
 for i in range(len(fatores)):
-    if i == 0 or multiplicidade == 1:
-        print("%d^" % fatores[i], end="")
-    if i!= 0 and fatores[i] == fatores[i-1]:
-        multiplicidade += 1
-    else:
-        print("%d" % multiplicidade, end=" ")
-        multiplicidade = 1
-        if i != len(fatores)-1:
-            print("x", end=" ")
+    print("%d**%d" % (fatores[i], multiplicidades[i]), end=" ")
+    if i != len(fatores)-1:
+        print("x", end=" ")
+
