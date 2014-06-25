@@ -15,11 +15,11 @@ print(lista)
 # separar os números pares e ímpares em listas distintas
 par = []
 impar = []
-for x in lista:
-    if x%2 == 0:
-        par.append(x)
+for num in lista:
+    if num%2 == 0:
+        par.append(num)
     else:
-        impar.append(x)
+        impar.append(num)
 
 print(par)
 print(impar)
