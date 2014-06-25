@@ -5,7 +5,7 @@
 # módulo para gerar números aleatórios
 import random
 
-# gera 20 números aleatório entre 1 e 100 e adiciona em uma lista
+# gera 20 números aleatórios entre 1 e 100 e adiciona em uma lista
 lista = []
 for i in range(20):
     lista.append(random.randint(1,100))
