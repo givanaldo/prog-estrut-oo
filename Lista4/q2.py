@@ -1,6 +1,6 @@
 # Disciplina: Programação Estrutura e Orientada a Objetos
 # Professor: Givanaldo Rocha
-# Lista 3 - Questão 2
+# Lista 4 - Questão 2
 
 # módulo para gerar números aleatórios
 import random
