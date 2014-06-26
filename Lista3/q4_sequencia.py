@@ -1,4 +1,4 @@
-# Disciplina: Programação Estrutura e Orientada a Objetos
+# Disciplina: Programação Estruturada e Orientada a Objetos
 # Professor: Givanaldo Rocha
 # Lista 3 - Questão 4 (uma variação dessa questão, imprime a sequência completa)
 
